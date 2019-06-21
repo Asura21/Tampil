@@ -6,12 +6,12 @@
 }
 .seminar-content2{
 	width: 100vw;
-	height: auto;
+	height: auto: ;
 	background-color: black;
 	color: white;
 
 }
-.content2-box{
+.content2-box{	
 	padding-top: 150px;
 	font-weight: 200;
 	font-family: 'Montserrat', sans-serif;
@@ -22,7 +22,7 @@
 	margin-top:90px;
 	margin-left: 20%;
 	font-size: 53px;
-	padding-bottom: 8px		;
+	padding-bottom: 8px	;
 	
 }
 .content2-text-box-text{
