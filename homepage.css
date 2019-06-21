@@ -73,6 +73,14 @@
 	color: black;
 	padding-bottom: 100px;
 }
+.bgku{
+	height: auto;
+	width: 100%;
+	background-color: white;
+	padding-top: 100px;
+	color: black;
+	padding-bottom: 100px;
+}
 /*TEXT CONTENT */
 .small-title-text{
 	margin-bottom: 25px;
@@ -480,4 +488,202 @@ background-color:rgba(0,0,0,0.65);
 }
 .faq-text{
 	margin-bottom: 15px; margin-left: 20px;
+}
+/* HEADER COMP */
+#header-comp{
+	height: 400px !important;
+}
+#title-hcomp{
+	padding-top: 100px;
+	margin-bottom: 40px; 
+	font-weight: 400;
+	font-size: 28px;
+}
+/*Comp CONTENT */
+#comp-content{
+	margin-top: 70px;
+}
+#daftar-margin{
+	padding-top: 230px;
+}
+/* INFO LOMBA */
+#info-lomba{
+	height: 1300px;background-color: black;
+}
+#sticky-slider-box{
+	height: 800px;
+}
+#sticky-content{
+	position: sticky;top:50%; margin-top: 200px;
+}
+#info-title{
+	font-size: 48px; margin-bottom: 10px;
+}
+#info-sign{
+	font-size: 30px; font-weight: 500; margin-bottom: 4px; font-family: roboto,sans-serif;
+}
+#sticky-bottom{
+	height: 600px;
+}
+.docs-img{
+	height: 500px;
+	width: 100%
+}
+#bottom-comp{
+	background-color: rgba(0, 0, 0, 0.6); height: 450px
+}
+#sticky-content-bottom{
+	position: sticky; top:15%;
+}
+#contentku{
+	margin-left: 10%; margin-top: 100px;
+}
+#sticky-bottom-bot{
+	height: 520px;
+}
+.comp-buttonku{
+	opacity: 1;
+ 	 font-family: 'Roboto',sans-serif; 
+ 	 font-weight: 100;
+ 	 font-size: 14px;
+ 	 padding: 15px; 
+ 	 background-color: transparent; 
+ 	 color: white; 
+ 	 border-radius: 20px;
+ 	 cursor:grab;
+}
+#bottom-comp-margin{
+	padding-top: 180px
+}
+.subcontent-img{
+	height: 270px;
+}
+/*RESPONSIVE */
+@media only screen and (max-width: 800px) {
+.page-margin,.page-margin20,.content2-text-box-title{
+	margin-left: 7%;
+	margin-right:7%;
+}
+.halfboxscreenleft{
+	margin-left: 0 ;
+	margin-right: 0;
+}
+.content2-text-box-text{
+	margin-left: 0;
+	margin-right: 0;
+}
+.home-step-box{
+	margin-left: 7%;
+}
+.step-text{
+	font-size: 17px !important;
+	padding-left: 0;	
+}
+#header-comp{
+	height: 200px !important;
+}
+.Smallrob{
+	font-size: 17px !important;
+}
+.Mediumrob{
+	font-size: 30px !important;
+}
+#title-hcomp{
+	padding-top: 45px !important;
+}
+.content2-box{
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+}
+.content2-text-box-title{
+	font-weight: 500 !important;
+	font-size: 20px !important;
+	margin-top: 50px !important;
+	margin-left: 30px !important;
+	margin-right: 10% !important;
+}
+.content2-text-box-text{
+	font-size: 15px !important;
+	margin-top: 0px !important;
+	margin-left: 30px !important;
+	margin-right: 10% !important;
+
+}
+#comp-content{
+	margin-top: 10px !important;
+}
+.small-title-text{
+	font-size: 20px !important;
+	font-weight: 400;
+}
+.small-content-text15{
+	font-size: 17px !important;
+}
+.slider-img-big{
+	height: 200px !important;
+}
+#daftar-trigger{
+	height: 400px !important;
+}
+#daftar-margin{
+	padding-top: 120px;
+}
+.comp-button{
+	margin:0 !important;
+	padding: 10px !important;
+	float: left !important;
+}
+#sticky-content{
+	margin-top: 100px !important;
+}
+#info-title{
+	font-size: 25px !important;
+}
+#info-sign{
+	font-size: 20px !important;
+	font-weight: 400;
+}
+#sticky-bottom{
+	height: 0 !important;
+}
+#sticky-slider-box{
+	height: auto !important;
+}
+.home-step-box{
+	height: 200px !important;
+	margin-top: 20px !important;
+	margin-left: 0 !important;
+}
+.home-step-line{
+	padding-bottom: 20px !important;
+}
+.bgku{
+	padding-top: 0px !important;
+}
+.docs-img{
+	height: 200px !important;
+}
+#bottom-comp{
+	height: 200px !important;
+}
+.img-subcontent-box{
+	margin-top: 50px !important;
+}
+#contentku{
+	margin-top: 0 !important;
+}
+#sticky-bottom-bot{
+	height: 0 !important;
+}
+#bottom-comp-margin{
+	padding-top: 70px !important;
+}
+.subcontent-img{
+	height: 200px;
+}
+.comp-buttonku{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
 }
