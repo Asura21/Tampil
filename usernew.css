@@ -65,7 +65,7 @@ p{
 		font-size: 18px !important;
 	}
 }
-@media only screen and ( max-width: 400px){
+@media only screen and ( max-width: 500px){
 	.padding-small{
 		padding: 0 !important;
 	}
@@ -73,7 +73,8 @@ p{
 		display: none !important;
 	}
 	#name-profile{
-		width: 290px;
+		text-align: center !important;
+		width: 320px;
 		margin-right: 0 !important;
 	}
 }
@@ -123,4 +124,76 @@ p{
 }
 #itembar{
 	padding-bottom: 10px;
+}
+@media only screen and ( max-width: 400px){
+	#mobile-hide{
+		display: none !important;
+	}
+	.body-article{
+		margin-left: 10px !important;
+	}
+	#img-artikel{
+		margin-right: 5px !important;
+		height: 50px !important;
+		width: 50px !important;
+	}
+
+}
+#img-artikel{
+	height: 60px; width: 60px; float: right; margin-right: 30px;
+}
+#anim1{
+}
+#anim2{
+	display: none;
+	opacity: 0;
+	transform: translateX(50px);
+}.article-box{
+	margin-top: 50px;
+}
+.header{
+	margin-bottom: 10px;
+}
+.body-article{
+	margin-left: 135px;
+	margin-right: 50px;
+}
+.article-title{
+	font-size: 27px;
+	font-weight: 200;
+}
+.article-img-box{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#artikel-img{
+	height: 300px;
+	width: 100%;
+}
+.article-text{
+	margin-bottom: 30px;
+}
+#notif-lomba{
+	margin-bottom: 6px;
+}
+.button-grey{
+	display: block; width: 120px; padding: 5px; border-radius: 10px;text-decoration: none; border:solid 1px #999999; background-color: transparent; margin-left: auto; margin-right: auto; margin-top: 15px;
+}
+#input-tim{
+	padding :8px 20px 8px 20px;
+	display: block;
+	margin-top: 10px;
+	border: solid 1px #999999;
+	border-radius: 3px;
+	background-color: #e6e6e6;
+}
+#daftar-tim{
+	margin-top: 50px;
+}
+.kelola-tim{
+	margin-left: auto;
+	margin-right: auto;
+}
+#anim3{
+	display: none;
 }
