@@ -523,7 +523,7 @@ background-color:rgba(0,0,0,0.65);
 	font-size: 30px; font-weight: 500; margin-bottom: 4px; font-family: roboto,sans-serif;
 }
 #sticky-bottom{
-	height: 600px;
+	height: 700px;
 }
 .docs-img{
 	height: 500px;
@@ -551,6 +551,8 @@ background-color:rgba(0,0,0,0.65);
  	 color: white; 
  	 border-radius: 20px;
  	 cursor:grab;
+ 	 width: 200px;
+ 	 margin-bottom: 10px;
 }
 #bottom-comp-margin{
 	padding-top: 180px
@@ -558,7 +560,21 @@ background-color:rgba(0,0,0,0.65);
 .subcontent-img{
 	height: 270px;
 }
+#timeline-grid{margin-left: auto;margin-right: auto; width: 700px;"
+}
 /*RESPONSIVE */
+@media only screen and (max-width: 400px) {
+#info-lomba{
+	height: 1400px;
+}
+@media only screen and (max-width: 350px) {
+#info-lomba{
+	height: 1500px;
+}
+#barmid{
+	width: 60px;
+}
+}
 @media only screen and (max-width: 800px) {
 .page-margin,.page-margin20,.content2-text-box-title{
 	margin-left: 7%;
@@ -635,13 +651,18 @@ background-color:rgba(0,0,0,0.65);
 }
 #sticky-content{
 	margin-top: 100px !important;
+	position: relative;
 }
 #info-title{
-	font-size: 25px !important;
+	font-size: 40px !important;
 }
 #info-sign{
 	font-size: 20px !important;
 	font-weight: 400;
+	margin-bottom: 60px;
+}
+.uk-grid-margin{
+	margin-top: 20 !important;
 }
 #sticky-bottom{
 	height: 0 !important;
@@ -682,8 +703,14 @@ background-color:rgba(0,0,0,0.65);
 	height: 200px;
 }
 .comp-buttonku{
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+#timeline-grid{
+	width: 320px;
+}
+#faq-title{
+	font-size: 18px;
 }
 
 }
